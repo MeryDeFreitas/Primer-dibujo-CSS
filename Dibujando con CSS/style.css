@@ -1,0 +1,136 @@
+:root{
+    --skin: #f6c09c;
+    --background: #ed4042;
+    --red: #ed2860;
+    --dark-red: #680524;
+    --black: #00243a;
+    --white: #fff;
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.head{
+    width: 100px;
+    height: 230px;
+    background: var(--skin);
+    border-radius: 50px;
+    position: relative;
+}
+
+.eye-left{
+    width: 20px;
+    height: 20px;
+    background: var(--white);
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    border-radius: 50%;
+}
+
+.eye-right{
+    width: 20px;
+    height: 20px;
+    background: var(--white);
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    border-radius: 50%;
+}
+
+.nose{
+    width: 20px;
+    height: 20px;
+    background: var(--skin);
+    position: absolute;
+    top: 110px;
+    left: 40px;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.barba{
+    width: 100px;
+    height: 110px;
+    background-color: var(--black);
+    position: absolute;
+    top: 120px;
+    border-radius: 30px;
+    z-index: 0;
+}
+
+.sonrisa{
+    width: 45px;
+    height: 28px;
+    background-color: var(--red);
+    position: absolute;
+    border-radius: 10px;
+    left: 28px;
+    top: 140px;
+}
+
+.dientes{
+    width: 30px;
+    height: 8px;
+    background-color: var(--white);
+    position: absolute;
+    left: 28px;
+    top: 140px;
+}
+
+.cuello{
+    width: 55px;
+    height: 35px;
+    background-color: var(--skin);
+    position: absolute;
+    left: 23px;
+    top: 230px;
+}
+
+.ear-left{
+    width: 15px;
+    height: 15px;
+    background-color: var(--skin);
+    position: absolute;
+    border-radius: 20px;
+    left: -10px;
+    top: 80px;
+}
+
+.ear-right{
+    width: 15px;
+    height: 15px;
+    background-color: var(--skin);
+    position: absolute;
+    border-radius: 20px;
+    left: 94px;
+    top: 80px;
+}
+
+.point-eye-left{
+    width: 5px;
+    height: 5px;
+    background-color: var(--black);
+    position: absolute;
+    border-radius: 20px;
+    left: 38px;
+    top: 85px;
+}
+
+.point-eye-right{
+    width: 5px;
+    height: 5px;
+    background-color: var(--black);
+    position: absolute;
+    border-radius: 20px;
+    left: 58px;
+    top: 85px;
+}
